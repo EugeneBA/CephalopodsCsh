@@ -2,7 +2,7 @@ const Cephalopods = function(width, height) {
     this.width = width;
     this.height = height;
     this.environment = new Environment(
-        1200,
+        2000,
         new Selector(),
         new Rater(),
         new Mutator());
